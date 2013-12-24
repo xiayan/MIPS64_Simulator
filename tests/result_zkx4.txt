@@ -1,0 +1,23 @@
+The timing table
+ T/I 	I#1	I#2	I#3	I#4	I#5	I#6	I#7	I#8
+c#1	IF								
+c#2	ID	IF							
+c#3	EX	ID	IF						
+c#4	MEM	EX	**						
+c#5	WB	MEM	ID	IF					
+c#6		WB	M1	**					
+c#7			M2	**					
+c#8			M3	**					
+c#9			M4	ID	IF				
+c#10			MEM	EX	ID	IF			
+c#11			WB	MEM	M1	ID	IF		
+c#12				WB	M2	EX	ID	IF	
+c#13					M3	MEM	EX	**	
+c#14					M4	WB	MEM	ID	
+c#15					MEM		WB	A1	
+c#16					WB			A2	
+c#17								MEM	
+c#18								WB	
+
+F1	F2	F3	
+655.04	24.80	40.00	

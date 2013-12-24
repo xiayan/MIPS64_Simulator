@@ -1,0 +1,29 @@
+        I#1   I#2   I#3   I#4   I#5   I#6   I#7   I#8   I#9   I#10 
+  c#1    IF  
+  c#2    ID    IF  
+  c#3    EX    ID    IF  
+  c#4   MEM    EX    **  
+  c#5    WB   MEM    ID    IF  
+  c#6          WB    M1    **  
+  c#7                M2    **  
+  c#8                M3    **  
+  c#9                M4    ID    IF  
+ c#10               MEM    A1    **  
+ c#11                WB    A2    ID    IF  
+ c#12                     MEM    EX    ID    IF  
+ c#13                      WB   MEM    M1    **  
+ c#14                            WB    M2    **  
+ c#15                                  M3    **  
+ c#16                                  M4    ID    IF  
+ c#17                                 MEM    EX    **  
+ c#18                                  WB   MEM    ID    IF  
+ c#19                                        WB    A1    ID    IF  
+ c#20                                              A2    M1    ID  
+ c#21                                             MEM    M2    EX  
+ c#22                                              WB    M3   MEM  
+ c#23                                                    M4    WB  
+ c#24                                                   MEM        
+ c#25                                                    WB        
+
+   F0     F2     F4     F6     F8  
+ 107.5   35.6   12.5  73.96   4.0  

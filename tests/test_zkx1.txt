@@ -1,0 +1,28 @@
+
+
+
+
+
+I-REGISTERS
+
+R2 16
+FP-REGISTERS
+
+MEMORY
+
+16 12.5
+12 17.8
+8 4
+
+							CODE
+
+ L.D F1, 0(R2)
+		L.D F2, -4(R2)
+
+MUL.D F3, F2, F1
+L.D F3, -8(R2)
+MUL.D F1, F2, F3
+S.D -4(R2), F3
+ADD.D F4, F1, F2
+MUL.D F4, F4, F3
+S.D -8(R2), F4
